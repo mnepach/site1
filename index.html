@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Саженцы смородины - 24.99 BYN | Крупноплодные сорта</title>
+    <meta name="description" content="Продажа саженцев смородины лучших сортов. Морозостойкие, крупноплодные кусты с гарантией приживаемости. Доставка по Беларуси.">
+    <meta name="keywords" content="саженцы смородины, смородина черная, кустарники, садоводство, ягодные культуры">
+    <meta property="og:title" content="Саженцы смородины - крупноплодные сорта">
+    <meta property="og:description" content="Качественные саженцы смородины с доставкой. Морозостойкие сорта для вашего сада!">
+    <meta name="twitter:title" content="Саженцы смородины - крупноплодные сорта">
+    <meta name="twitter:description" content="Качественные саженцы смородины с доставкой. Морозостойкие сорта для вашего сада!">
+
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/react@18/umd/react.production.min.js"></script>
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/@babel/standalone/babel.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://resource.trickle.so/vendor_lib/unpkg/lucide-static@0.516.0/font/lucide.css" rel="stylesheet">
+
+    <style type="text/tailwindcss">
+    @layer theme {
+        :root {
+            --primary-color: #2d5016;
+            --secondary-color: #f8fdf3;
+            --accent-color: #7cb518;
+            --text-dark: #1f2937;
+            --text-light: #6b7280;
+            --border-color: #e5e7eb;
+            --gradient-start: #7cb518;
+            --gradient-end: #2d5016;
+        }
+    }
+
+    @layer base {
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+            line-height: 1.6;
+            color: var(--text-dark);
+            background-color: #ffffff;
+        }
+        
+        h1, h2, h3 {
+            font-weight: 600;
+            line-height: 1.2;
+        }
+    }
+
+    @layer components {
+        .btn-primary {
+            @apply bg-[var(--primary-color)] text-white px-6 py-3 rounded-2xl font-medium transition-all duration-300 hover:shadow-lg active:scale-95 text-center block w-full;
+        }
+        
+        .gradient-bg {
+            background: linear-gradient(135deg, var(--gradient-start) 0%, var(--gradient-end) 100%);
+        }
+        
+        .card {
+            @apply bg-white rounded-3xl p-6 shadow-sm border border-[var(--border-color)] hover:shadow-md transition-all duration-300;
+        }
+        
+        .geometric-shape {
+            @apply absolute rounded-full opacity-10;
+        }
+    }
+
+    @layer utilities {
+        .text-shadow {
+            text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+    }
+    </style>
+</head>
+<body>
+    <div id="root"></div>
+    
+    <script type="text/babel" src="components/Navigation.js"></script>
+    <script type="text/babel" src="components/Header.js"></script>
+    <script type="text/babel" src="components/Hero.js"></script>
+    <script type="text/babel" src="components/Varieties.js"></script>
+    <script type="text/babel" src="components/Description.js"></script>
+    <script type="text/babel" src="components/ProductCard.js"></script>
+    <script type="text/babel" src="components/Products.js"></script>
+    <script type="text/babel" src="components/Features.js"></script>
+    <script type="text/babel" src="components/OrderForm.js"></script>
+    <script type="text/babel" src="components/Footer.js"></script>
+    <script type="text/babel" src="app.js"></script>
+</body>
+</html>
