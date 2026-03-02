@@ -23,7 +23,7 @@ function Products() {
     ];
 
     return (
-      <section className="px-4 py-12 bg-[var(--secondary-color)]" data-name="products" data-file="components/Products.js">
+      <section id="catalog" className="px-4 py-12 bg-[var(--secondary-color)]" data-name="products" data-file="components/Products.js">
         <div className="text-center mb-8">
           <h2 className="text-2xl font-bold text-[var(--text-dark)] mb-3">
             Наши саженцы

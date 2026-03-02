@@ -72,7 +72,11 @@
 </head>
 <body>
     <div id="root"></div>
-    
+
+    <!-- Cart context must be loaded FIRST before any component that uses it -->
+    <script type="text/babel" src="components/CartContext.js"></script>
+    <script type="text/babel" src="components/CartDrawer.js"></script>
+
     <script type="text/babel" src="components/Navigation.js"></script>
     <script type="text/babel" src="components/Header.js"></script>
     <script type="text/babel" src="components/Hero.js"></script>
@@ -83,6 +87,7 @@
     <script type="text/babel" src="components/Features.js"></script>
     <script type="text/babel" src="components/OrderForm.js"></script>
     <script type="text/babel" src="components/Footer.js"></script>
+    <script type="text/babel" src="components/Reviews.js"></script>
     <script type="text/babel" src="app.js"></script>
 </body>
 </html>
